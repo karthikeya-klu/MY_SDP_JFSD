@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Student Registration Form 2</title>
+  <style>
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+nav{
+ position: fixed;
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 75px;
+ background: #2980b9;
+ box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+nav .navbar{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ height: 100%;
+ max-width: 90%;
+ background: #2980b9;
+ margin: auto;
+}
+nav .navbar .logo a{
+  color: #fff;
+  font-size: 27px;
+  font-weight: 600;
+  text-decoration: none;
+}
+nav .navbar .menu{
+  display: flex;
+}
+.navbar .menu li{
+  list-style: none;
+  margin: 0 15px;
+}
+.navbar .menu li a{
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  text-decoration: none;
+}
+section{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  color: #96c7e8;
+  font-size: 70px;
+}
+#Home{
+  background: #fff;
+}
+#About{
+  background: #f2f2f2;
+}
+#Category{
+  background: #e6e6e6;
+}
+#Latest{
+  background: #fff;
+}
+#Contact{
+  background: #f2f2f2;
+}
+#Feedback{
+  background: #e6e6e6;
+}
+.button a{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #fff;
+  background: #2980b9;
+  padding: 7px 12px;;
+  font-size: 18px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    *{
+  margin: 0;
+  padding: 0;
+}
+
+.main{
+  width: 100%;
+  background: linear-gradient(to top, rgba(86, 86, 198, 0.5)50%,rgba(89, 70, 153, 0.5)50%), url(1.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  
+}
+
+.navbar{
+  width: 1536px;
+  height: 75px;
+  margin: auto;
+  background-color: #333333;
+}
+
+.icon{
+  width: 200px;
+  float: left;
+  height: 70px;
+  cursor:pointer;
+}
+
+.logo{
+  color: #ff7200;
+  font-size: 35px;
+  font-family: Arial;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+  margin-top: 5px
+  
+}
+
+.menu{
+  width: 500px;
+  float: left;
+  height: 70px;
+}
+
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li{
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out; 
+}
+
+ul li a:hover{
+  color: #ff7200;
+}
+
+.search{
+  width: 330px;
+  float: left;
+  margin-left: 300px;
+}
+
+.srch{
+  font-family: 'Times New Roman';
+  width: 200px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid #ff7200;
+  margin-top: 13px;
+  color: #fff;
+  border-right: none;
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.btn{
+  width: 100px;
+  height: 40px;
+  background: #ff7200;
+  border: 2px solid #ff7200;
+  margin-top: 13px;
+  color: #fff;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+.btn:hover{
+  color: #000;
+}
+
+.btn:focus{
+  outline: none;
+}
+
+.srch:focus{
+  outline: none;
+}
+
+.content{
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: #fff;
+  position: relative;
+}
+
+.content .par{
+  padding-left: 20px;
+  padding-bottom: 25px;
+  font-family: Arial;
+  letter-spacing: 1.2px;
+  line-height: 30px;
+}
+
+.content h1{
+  font-family: 'Times New Roman';
+  font-size: 50px;
+  padding-left: 20px;
+  margin-top: 9%;
+  letter-spacing: 2px;
+}
+
+.content .cn{
+  width: 160px;
+  height: 40px;
+  background: #ff7200;
+  border: none;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .4s ease;
+  
+}
+
+.content .cn a{
+  text-decoration: none;
+  color: #000;
+  transition: .3s ease;
+}
+
+.cn:hover{
+  background-color: #fff;
+}
+
+.content span{
+  color: #ff7200;
+  font-size: 65px
+}
+
+.main .navbar .icons2 div{
+    font-size: 2rem;
+    color: #ff7200;
+    background-color: var(--light-bg);
+    border-radius: .5rem;
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    cursor: pointer;
+    text-align: end;
+    margin-left: 6%;
+    
+  }
+  
+body {
+      font-family: arial;
+      transition: all 0.5s ease;
+      -webkit-transition: all 0.5s ease;
+    }
+
+    .container1 {
+      padding: 40px;
+      width: 500px;
+      margin: 20px auto;
+      background-color: #f1f1f1;
+      height: 150%;
+    }
+
+    .container1 h2 {
+      text-align: center;
+    }
+
+    fieldset {
+      border: 1px solid #d4d4d4;
+      padding: 20px 10px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+
+    .input-field1 {
+      display: flex;
+      margin-bottom: 15px;
+    }
+
+    label {
+      margin-right: 25px;
+      margin-top: 5px;
+      width: 30%;
+      text-align: right;
+      font-weight: bold;
+    }
+
+    .icon1 {
+      background: #fcfcfa;
+      color: black;
+      min-width: 40px;
+      border: 2px solid #e2e2e2;
+      border-right: none;
+      text-align: center;
+      padding: 7px;
+    }
+
+    .inputs1 {
+      padding: 3px 10px;
+      border: 2px solid #e2e2e2;
+      width: 70%;
+    }
+
+    input [type="radio"] {
+      margin-right: 8px;
+    }
+
+    .textarea1 {
+      padding: 8px;
+      border: 2px solid #e2e2e2;
+    }
+
+    .textarea-icon1 {
+      padding-top: 14px;
+    }
+
+    .button {
+      text-align: center;
+    }
+
+    .submit {
+      color: white;
+      background: #ee9a25;
+      padding: 9px 25px;
+      margin-right: 10px;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0 0 5px #c9c9c9;
+    }
+
+    .submit:hover {
+      background: #d1871e;
+    }
+
+    .reset {
+      color: white;
+      background: #c93232;
+      padding: 9px 25px;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0 0 5px #c9c9c9;
+    }
+
+    .reset:hover {
+      background: #a32727;
+    }
+
+    .city {
+      margin-left: -6px;
+    }
+
+    .gender {
+      margin-left: -30px;
+    }
+
+    .courses {
+      margin-left: -26px;
+    }
+
+    input[type="radio"] {
+      margin-right: 10px;
+    }
+
+    .message {
+      margin-left: -30px;
+    }
+
+.main .navbar .icons2 div{
+    font-size: 2rem;
+    color:#ff7200;
+    background-color: var(--light-bg);
+    border-radius: .5rem;
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    cursor: pointer;
+    text-align: end;
+    margin-left: 6%;
+    
+  }
+  
+  .main .navbar .icons2 div:hover{
+    background-color: var(--black);
+    color:#ff7200;
+  }
+  
+  
+  
+  
+.dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+  </style>
+</head>
+
+<body>
+  
+<!-- Fontawesome CDN Link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<nav>
+<div class="navbar">
+ <div class="logo"><a href="#">STUDENT MANAGEMENT SYSTEM</a></div>
+ <ul class="menu">
+   <li><a href="/user-page">Home</a></li>
+   <!--<li><a href="/addstudent">Add Student</a></li>-->
+   <li><a href="/addcourse">Add Course</a></li>
+   <li><a href="/contact">Contact</a></li>
+   <li><a href="#Feedback">Feedback</a></li>
+ </ul>
+</div>
+</nav>
+
+<div class="button">
+<a href="#Home"><i class="fas fa-arrow-up"></i></a>
+</div>
+</body>
+<br><br><br><br><br><br><br>
+    <div class="container1">
+      
+      <h2>Course Registration</h2>
+      <form action="/addcourse" method="post" >
+        <fieldset>
+          <div class="input-field1">
+            <label>Course Name</label>
+            <i class="fa fa-user icon1"></i>
+            <input type="text" class="inputs1" name="coursename">
+          </div>
+          <div class="input-field1">
+            <label>Course Code</label>
+            <i class="fa-solid fa-people-roof icon1"></i>
+            <input type="text" class="inputs1" name="coursecode">
+          </div>
+          <div class="input-field1">
+            <label>Faculty</label>
+            <i class="fa-solid fa-people-roof icon1"></i>
+            <input type="text" class="inputs1" name="faculty">
+          </div>
+        </fieldset>
+  
+        <div class="button">
+          <button type="submit" class="submit">Submit</button>
+          <!--<button type="reset" class="reset">Reset</button>-->
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
